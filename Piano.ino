@@ -1,13 +1,13 @@
 viod setup() {
   pinMode(5, OUTPUT); //디지털 5번핀을 출력모드로 설정
-  pinMode(6, OUTPUT); //디지털 6번핀을 출력모드로 설정
-  pinMode(7, OUTPUT); //디지털 7번핀을 출력모드로 설정
-  pinMode(8, OUTPUT); //디지털 8번핀을 출력모드로 설정
-  pinMode(9, OUTPUT); //디지털 9번핀을 출력모드로 설정
-  pinMode(10, OUTPUT); //디지털 10번핀을 출력모드로 설정
-  pinMode(11, OUTPUT); //디지털 11번핀을 출력모드로 설정
-  pinMode(12, OUTPUT); //디지털 12번핀을 출력모드로 설정
-  pinMode(13, OUTPUT); //디지털 13번핀을 출력모드로 설정
+  pinMode(6, INPUT); //디지털 6번핀을 입력모드로 설정
+  pinMode(7, INPUT); //디지털 7번핀을 입력모드로 설정
+  pinMode(8, INPUT); //디지털 8번핀을 입력모드로 설정
+  pinMode(9, INPUT); //디지털 9번핀을 입력모드로 설정
+  pinMode(10, INPUT); //디지털 10번핀을 입력모드로 설정
+  pinMode(11, INPUT); //디지털 11번핀을 입력모드로 설정
+  pinMode(12, INPUT); //디지털 12번핀을 입력모드로 설정
+  pinMode(13, INPUT); //디지털 13번핀을 입력모드로 설정
 }
 
 void loop(){
@@ -36,6 +36,6 @@ void loop(){
     tone(5, 261.6);
   }
   else{
-    noTone(5);
+    noTone(5); // 아무 버튼도 안 눌리면 소리 끔
   }
 }
