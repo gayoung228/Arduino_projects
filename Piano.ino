@@ -15,7 +15,7 @@ void loop(){
     tone(5, 130.8); //5번핀에 주파수 신호 130.8을 출력
   ]
   else if(difgitalRead(12) == HIGH){ //그게 아니라 12번에 HIGH신호가 입력되면 
-    tone(5, 155.6); //5버닌에 주파수 신호 155.6 출력
+    tone(5, 155.6); //5번핀에 주파수 신호 155.6 출력
   }
   else if(difgitalRead(11) == HIGH){ // ...
     tone(5, 164.8);
