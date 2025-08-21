@@ -22,7 +22,7 @@ DHT dht(DHTPIN, DHTTYPE);
 void setup() {
     // Initialize serial communication to allow debugging and data readout.
     // Using a baud rate of 9600 bps.
-    Serial.begin(9600); //시리얼 통신을 시작하며, 통신 속도는 9600
+    Serial.begin(9600); //시리얼 통신을 시작하며, 통신 속도는 9600 
     
     // Uncomment the line below to set a custom delay between sensor readings (in milliseconds).
     // dht11.setDelay(500); // Set this to the desired delay. Default is 500ms.
