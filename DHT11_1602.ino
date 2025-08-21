@@ -4,7 +4,7 @@ DHT dht(8, DHT11); //DHT 설정(DHT11 센서: 데이터핀 = D8)
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // LCD 연결 핀 설정
 
 void setup() {
-  lcd.begin(16, 2); // LCD 크기 설정
+  lcd.begin(16, 2); // LCD 크기 설정 
 }
 
 void loop() {
