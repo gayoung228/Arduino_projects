@@ -31,7 +31,7 @@ void setup() {
 void loop() {
     delay(2000); //2초 대기
     int h = dht.readHumidity(); //변수 h 선언하며 읽은 습도값 대입
-    int t = dht.readTemperature(); //변수 t 선언하며 읽은 온도값 대입
+    int t = dht.readTemperature(); //변수 t 선언하며 읽은 온도값 대입 
 
     // Attempt to read the temperature and humidity values from the DHT11 sensor.
     // Check the results of the readings.
