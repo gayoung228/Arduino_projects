@@ -11,7 +11,7 @@
 // Include the DHT11 library for interfacing with the sensor.
 #include "DHT.h" //DHT11.h 라이브러리 포함
 #define DHTPIN 2 //DHTPIN을 2로 설정
-#define DHTTYPE DHT11 //DHTTYPE를 DHT11로 설정
+#define DHTTYPE DHT11 //DHTTYPE를 DHT11로 설정 
 
 // Create an instance of the DHT11 class.
 // - For Arduino: Connect the sensor to Digital I/O Pin 2.
